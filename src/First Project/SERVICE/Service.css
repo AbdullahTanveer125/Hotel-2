@@ -1,0 +1,18 @@
+.Service_container{
+    background-color: rgb(186, 185, 185);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 3% 6%;
+    box-sizing: border-box;
+}
+.Service_container_heading{
+    grid-column: 1/-1;
+    text-align: center;
+    text-decoration: underline;
+}
+/* .Service_container_box{
+    margin: 3px;
+} */

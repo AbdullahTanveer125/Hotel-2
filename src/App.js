@@ -1,0 +1,41 @@
+import "./App.css";
+import Navbar from "./First Project/NAVBAR/Navbar";
+import Home from "./First Project/HOME/Home";
+import About from "./First Project/ABOUT/About";
+import Contact from "./First Project/CONTACT/Contact";
+import Service from "./First Project/SERVICE/Service";
+import Error from "./First Project/ERROR_PAGE/Error";
+import Footer from "./First Project/FOOTER/Footer";
+
+
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Go_to_top from "./First Project/GO_TO_TOP/Go_to_top";
+import Final_todo from "./ToDo List/Final_todo";
+
+
+function App() {
+
+  return (
+    <div className="App">
+      {/* <Navbar/>
+
+      <Routes>
+        <Route path="/"    element={ <Home/> }    />
+        <Route path="/About"   element={ <About/> }   />
+        <Route path="/Contact" element={ <Contact/> } />
+        <Route path="/Service" element={ <Service/> } />
+        <Route path="*" element={ <Error/> } />
+      </Routes>
+
+
+      <Footer/>
+
+      <Go_to_top /> */}
+
+
+      <Final_todo />
+    </div>
+  );
+}
+
+export default App;

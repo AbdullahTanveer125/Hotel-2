@@ -1,0 +1,39 @@
+.contact_main_container{
+    /* border: 5px solid rgb(94, 54, 54); */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(204, 204, 205);
+    min-height: 100vh;
+}
+.contact_sub_container{
+    border: 5px solid rgb(3, 47, 83);
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 14px 11.5px 52px 6px rgb(153, 152, 152);
+}
+.contact_container_form_headindg{
+    text-decoration: underline;
+    color: rgb(41, 73, 100);
+}
+.contact_container_form{
+    /* border: 3px solid rgb(10, 188, 248); */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 12px;
+}
+.contact_container_form_input{
+    margin: 8px 0px;
+}
+.contact_container_form_button{
+    margin: auto;
+    padding: 3px 14px;
+    border: 5px solid rgb(3, 47, 83);
+    background-color: rgb(41, 73, 100);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+}
