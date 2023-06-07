@@ -11,12 +11,15 @@ import Footer from "./First Project/FOOTER/Footer";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Go_to_top from "./First Project/GO_TO_TOP/Go_to_top";
 import Final_todo from "./ToDo List/Final_todo";
+import Parent_of_gym from "./Gym/Parent_of_gym";
+import Parent_of_hotel from "./Hotel Reservation/Parent_of_hotel"
+
 
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="a">
       {/* <Navbar/>
 
       <Routes>
@@ -32,8 +35,9 @@ function App() {
 
       <Go_to_top /> */}
 
+      {/* <Final_todo /> */}
 
-      <Final_todo />
+      <Parent_of_hotel />
     </div>
   );
 }

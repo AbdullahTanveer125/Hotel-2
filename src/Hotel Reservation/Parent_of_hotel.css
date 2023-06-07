@@ -1,0 +1,11 @@
+    /* Variables */
+:root {
+    --light_gray_type: rgb(235, 232, 228);
+    --purple: rgb(135, 0, 207);
+    --orange: #f48915;
+    --dark_grey: #464D53;
+    --gray: #9f9e9e;
+    --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    --light_purple:  rgb(114, 67, 139);
+  }
+  
