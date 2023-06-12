@@ -2,20 +2,9 @@ import "./Service_box.css";
 
 function Service_box(props) {
   return (
-    <div className="">
+    <div className="service_box_parent">
 
-
-      console.log({props.icon});
-      console.log({props.heading});
-      console.log({props.detail});
-
-      
-      console.log(props.icon);
-      console.log(props.heading);
-      console.log(props.detail);
-
-
-      <div>{props.icon}</div>
+      <div className="icon">{props.icon}</div>
       <h3>{props.heading}</h3>
       <p>{props.detail}</p>
 

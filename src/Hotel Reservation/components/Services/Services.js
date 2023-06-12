@@ -1,22 +1,24 @@
 import "./Services.css";
 import Service_box from "./Service_box/Service_box";
-import  { serviceData } from "../../Content Data/Services_data";
+import  { ServiceData } from "../../Content Data/Services_data";
 
 
 function Services() {
   return (
-    <div className="">
+    <div className="services_parent">
 
-      <div>
+      <div className="heading">
         <h1>Services</h1>
-        <hr />
       </div>
 
-      <div>
-        {serviceData.map(function (element){
-            <div key={element.id}>
+      <div className="boxes_container">
+        {ServiceData.map(function (element){
+
+          return (
+            <div key={element.id} className="box">
                 <Service_box icon={element.icon} heading={element.heading} detail={element.detail}/>
             </div>
+          );
         })
         }
       </div>

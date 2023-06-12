@@ -1,3 +1,6 @@
-hr{
-    margin-bottom: 20px;
+.service_box_parent{
+    text-align: center;
+}
+.icon{
+    color: brown;
 }

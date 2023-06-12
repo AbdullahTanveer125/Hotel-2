@@ -1,11 +1,10 @@
-.body_parent{
+/* .body_parent{
     background-color: blueviolet;
     width: 100%;
     height: 620px;
     background-image: url('../../images/body_background.jpg');
     background-size:cover;
     background-position:center;
-    opacity: 0.8;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,4 +26,4 @@
 .container_on_image p{
     font-size: 20px;
     color: var(--gray);
-}
+} */

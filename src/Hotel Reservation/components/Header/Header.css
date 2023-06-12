@@ -1,11 +1,12 @@
 .header_parent{
-    background-color: var(--light_gray_type);
+    background-color: rgb(216, 216, 216);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
     border-bottom: 4px solid var(--purple);
+    width: 100%;
 }
 .logo{
     height: 70px;
@@ -17,12 +18,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 17px;
 }
 .links a{
-    color: rgb(135, 0, 207);
+    color: var(--purple);
     text-decoration: none;
     font-weight: 900;
-    letter-spacing: 6px;
+    /* letter-spacing: 3px; */
 }
 .links a:hover{
     cursor: pointer;
